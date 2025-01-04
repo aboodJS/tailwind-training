@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="h-screen flex justify-center items-center">
+      <form
+        class="bg-slate-100 h-2/5 min-w-fit p-3 grid content-evenly rounded shadow-xl"
+      >
+        <div>
+          <label for="username">username</label>
+          <input
+            type="text"
+            name="username"
+            class="rounded focus:border-4 focus:border-blue-600 outline-none transition-all"
+          />
+        </div>
+        <div>
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            name="email"
+            class="rounded required:border-2 required:border-blue-600 outline-none focus:border-4 focus:border-blue-600 transition-all"
+            required
+          />
+        </div>
+        <div>
+          <label for="password">password</label>
+          <input
+            type="password"
+            name="password"
+            class="rounded required:border-2 required:border-blue-600 outline-none focus:border-4 focus:border-blue-600 transition-all"
+            required
+          />
+        </div>
+        <input
+          type="submit"
+          value="login"
+          class="bg-sky-700 w-16 p-1 justify-self-center text-white font-bold rounded-full hover:bg-sky-900 outline-none focus:border-4 focus:border-teal-900 transition-all"
+        />
+      </form>
+    </main>
+  </body>
+</html>
